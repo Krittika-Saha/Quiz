@@ -13,7 +13,7 @@ for question in question_data:
   q_bank.append(new_question)
 
 quiz = QuizBrain(q_bank)
-quiz.next_question()
+final_score = quiz.next_question()
 
 globals()[user_name] = User(user_name, final_score)
 globals()[user_name].record_me()

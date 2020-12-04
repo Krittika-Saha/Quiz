@@ -25,7 +25,6 @@ class QuizBrain:
     final_score = self.score
     return final_score
 
-print(final_score)
 
 
 
